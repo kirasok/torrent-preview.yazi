@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- `yazi`
+- [yazi](https://github.com/sxyazi/yazi)
 - [transmission-cli](https://github.com/transmission/transmission)
 
 ## Installation
