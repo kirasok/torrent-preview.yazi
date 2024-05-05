@@ -2,6 +2,8 @@
     "diagnostics.globals": [
         "ui",
         "Command",
-        "ya"
+        "ya",
+        "cx",
+        "units"
     ]
 }
