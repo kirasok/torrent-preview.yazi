@@ -2,6 +2,8 @@
 
 [Yazi](https://github.com/sxyazi/yazi) plugin to preview `application/x-bittorrent` files
 
+![show case](https://github.com/kirasok/torrent-preview.yazi/assets/75790517/6f215e6d-bb19-46f4-b606-9241594028ff)
+
 ## Requirements
 
 - `yazi`
