@@ -13,6 +13,14 @@
 
 ### Linux/MacOS
 
+Using the [Yazi Package Manager](https://yazi-rs.github.io/docs/cli/#package-manager):
+
+```sh
+ya pack -a kirasok/torrent-preview
+```
+
+Or manually:
+
 ```sh
 git clone https://github.com/kirasok/torrent-preview.yazi.git ~/.config/yazi/plugins/torrent-preview.yazi
 ```
@@ -29,3 +37,4 @@ run = "torrent-preview"
 
 > [!NOTE]
 > Yazi after `v0.4` removes `x-` prefix from subtype, so even if `file -i` outputs `application/x-bittorrent`, you should use `application/bittorrent` ([relevant issue](https://github.com/kirasok/torrent-preview.yazi/issues/2))
+
