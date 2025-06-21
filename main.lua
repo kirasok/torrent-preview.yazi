@@ -2,12 +2,10 @@ local M = {}
 
 function M:peek(job)
 	local child = Command("transmission-show")
-		:args({
-			tostring(job.file.url),
-		})
-		:stdout(Command.PIPED)
-		:stderr(Command.PIPED)
-		:spawn()
+			:arg(tostring(job.file.url))
+			:stdout(Command.PIPED)
+			:stderr(Command.PIPED)
+			:spawn()
 
 	if not child then
 		return require("code"):peek(job)
