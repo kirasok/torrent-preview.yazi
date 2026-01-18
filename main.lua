@@ -2,7 +2,7 @@ local M = {}
 
 function M:peek(job)
 	local child = Command("transmission-show")
-			:arg(tostring(job.file.url))
+			:arg({"--no-header", "--no-trackers", tostring(job.file.url)})
 			:stdout(Command.PIPED)
 			:stderr(Command.PIPED)
 			:spawn()
