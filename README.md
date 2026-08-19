@@ -1,4 +1,7 @@
-# torrent-preview.yazi
+# torrent-preview.yazi (deprecated)
+
+> [!NOTE]
+> Use [piper.yazi](https://github.com/yazi-rs/plugins/tree/main/piper.yazi) instead: `piper -- transmission-show "$1"`.
 
 [Yazi](https://github.com/sxyazi/yazi) plugin to preview `application/bittorrent` files
 
